@@ -42,4 +42,8 @@ def sort():
         ls.append(cal_gpa(str(key.name[0]) + ' ' + str(key.name[1])))
     for i in sorted(ls, key = lambda x : x[1], reverse=True):
         print(i[0] + ': ' + str(i[1]))
+<<<<<<< HEAD
 sort()
+=======
+sort()
+>>>>>>> 3842d98f325dd1655f2883bbca233f10a91e7ab4
